@@ -15,19 +15,4 @@ module.exports = function createDreamTeam(members) {
     else{
         return false;
     }
-
-
-        // if(Array.isArray(members)){
-        //     let r = members.filter(member => typeof member === 'string').sort();
-        //     console.log(r);
-        //     r.forEach(element => element.trim());
-        //     console.log(r);
-        //     let t = [];
-        //     r.forEach(item => t.push(item[0].toUpperCase()));
-        //     return t.join("");
-        // }
-        // else{
-        //     return false;
-        // }
-
 };
